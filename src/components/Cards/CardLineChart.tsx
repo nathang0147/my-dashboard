@@ -51,7 +51,7 @@ export default function CardLineChart({ data }: Props) {
         };
 
         chartInstance.current = new Chart(ctx, config);
-    }, []);
+    }, [data]);
 
     return (
         <div className="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-blueGray-700">

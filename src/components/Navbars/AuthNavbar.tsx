@@ -5,7 +5,7 @@ import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
-export default function AuthNavbar(props: { transparent?: boolean }) {
+export default function AuthNavbar() {
     const [navbarOpen, setNavbarOpen] = useState(false);
 
     return (

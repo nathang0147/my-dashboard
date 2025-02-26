@@ -28,7 +28,12 @@ const NotificationDropdown: React.FC = () => {
                 ref={btnDropdownRef}
                 onClick={(e) => {
                     e.preventDefault();
-                    dropdownPopoverShow ? closeDropdownPopover() : openDropdownPopover();
+                    if (dropdownPopoverShow) {
+                        closeDropdownPopover();
+                    } else {
+                        openDropdownPopover();
+                    }
+
                 }}
             >
                 <i className="fas fa-bell"></i>
