@@ -41,8 +41,5 @@ yarn-error.log*
 next-env.d.ts
 
 .idea
-postcss.config.mjs
-tailwind.config.ts
-tsconfig.json
 package-lock.json
 
